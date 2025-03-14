@@ -1,0 +1,16 @@
++ qDecision,action,D0  # Decyzja klienta: 1 = yes, 0 = no
+
++ qPattern1,action,D1  # Pattern bit 1
++ qPattern2,action,D2  # Pattern bit 2
++ qPattern3,action,D3  # Pattern bit 3
++ qPattern4,action,D4  # Pattern bit 4
++ qPattern5,action,D5  # Pattern bit 5
+
+: 0, qDecision, 1 
+
+# Pattern 1 = H, 0 = T
+: 10, qPattern1, 1  # H
+: 20, qPattern2, 0  # T
+: 30, qPattern3, 1  # H
+: 40, qPattern4, 1  # H
+: 50, qPattern5, 0  # T
